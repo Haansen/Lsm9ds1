@@ -1,0 +1,15 @@
+{
+  "name": "LSM9DS1 Tilt Sensor",
+  "version": "1.0",
+  "slug": "lsm9ds1",
+  "description": "Reads LSM9DS1 accelerometer data and publishes tilt over MQTT",
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": false,
+  "host_network": false,
+  "privileged": ["SYS_RAWIO"],
+  "devices": ["/dev/i2c-1"],
+  "arch": ["aarch64", "armv7", "armhf"],
+  "options": {},
+  "schema": {}
+}
