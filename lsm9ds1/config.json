@@ -9,7 +9,7 @@
   "host_network": false,
   "privileged": ["SYS_RAWIO"],
   "devices": ["/dev/i2c-1"],
-  "arch": ["aarch64", "armv7", "armhf"],
+  "arch": ["aarch64"],
   "options": {},
   "schema": {}
 }
