@@ -1,0 +1,16 @@
+{
+  "name": "LSM9DS1 Tilt Sensor",
+  "version": "1.0",
+  "slug": "lsm9ds1",
+  "description": "Reads LSM9DS1 tilt over I2C and sends via MQTT",
+  "arch": ["aarch64"],
+  "image": null,
+  "startup": "services",
+  "boot": "auto",
+  "hassio_api": false,
+  "host_network": false,
+  "privileged": ["SYS_RAWIO"],
+  "devices": ["/dev/i2c-1"],
+  "options": {},
+  "schema": {}
+}
